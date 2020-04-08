@@ -1,2 +1,3 @@
 This is a project inspired by the odin project in which I am deconstructing and then reconstructing the google homepage.
-Upon completion I have shown an 
+Upon completion I have shown an understanding of the basic structure of the html format, along with an understanding of how to implement images, text boxes and buttons. 
+This project also shows my basic understanding of css stylings, including the use of classes, element positioning and flexboxes.
