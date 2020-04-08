@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <style>
     
+    #body {
+    position: fixed;
+   height: 100%;
+   width: 100%;
+   }
+   
+   
     #header-left {
-        display:flex;
+        display: flex;
         height: 20px;
-        float: left;
-
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        border: 10px;
+        padding: 10px;
     }
     
     #header-left-1 {
@@ -21,9 +31,11 @@
     }
     #header-right {
         display: flex;
-        width: 50%;
+        width: 80%;
         height: 20px;
-        float: right; 
+        position: absolute;
+        top: 20px;
+        left: 20px;
         flex-direction: row-reverse;
         
     }
@@ -49,16 +61,26 @@
         height: 25%;
         margin: 10px;
     }
+
+    #center-image {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+     width: 20%;
+
+    }
 </style>
 <head>
     <!-- Google home page -->
 </head>
-<body>
+<body id="body">
 <div id="header-left">
     <div id="header-left-1">About</div>
     <div id="header-left-2">Store</div>
 
 </div>
+
 <div id="header-right">
 <div id="header-right-1">Gmail</div>
 <div id="header-right-2">Images</div>
@@ -67,7 +89,7 @@
 </div>
 <div>
 
-<img src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png> 
+<img id="center-image" src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png> 
 
 
 </div>
